@@ -25,7 +25,7 @@ import {
 } from 'lucide-react';
 import '../App.css';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = import.meta.env.https://resu-sistem.onrender.com || 'http://localhost:8000/api';
 
 export default function Dashboard() {
     const [step, setStep] = useState(1);
