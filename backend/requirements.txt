@@ -8,3 +8,4 @@ python-jose[cryptography]
 passlib[bcrypt]
 jinja2
 aiofiles
+email-validator
