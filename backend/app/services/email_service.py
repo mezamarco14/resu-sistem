@@ -7,7 +7,7 @@ from email.mime.application import MIMEApplication
 from email.mime.image import MIMEImage
 from typing import List, Optional
 import logging
-import re
+import re 
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -124,3 +124,4 @@ class EmailService:
             return False
 
 email_service = EmailService()
+
