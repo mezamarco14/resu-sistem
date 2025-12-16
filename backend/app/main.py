@@ -74,4 +74,8 @@ if frontend_dist.exists():
 else:
     @app.get("/")
     def read_root():
-        return {"message": f"Frontend not found at {frontend_dist}. Run 'npm run build' in frontend directory."}
+        return {
+            "status": "online",
+            "message": "Backend API is running configured for separate frontend deployment.",
+            "docs_url": "/docs"
+        }
